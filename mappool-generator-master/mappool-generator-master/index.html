@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mappool Generator</title>
+    <link rel="stylesheet" href="styles/main.css " />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/result.css" />
+  </head>
+  <body>
+    <section id="poolFormContainer" class="itemContainer">
+      <div class="itemWrapper">
+        <h2>NoMod Pool</h2>
+        <input
+          type="number"
+          min="0"
+          id="NoMod"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>Hidden Pool</h2>
+        <input
+          type="number"
+          min="0"
+          id="Hidden"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>HardRock Pool</h2>
+        <input
+          type="number"
+          min="0"
+          id="HardRock"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>DoubleTime Pool</h2>
+        <input
+          type="number"
+          min="0"
+          id="DoubleTime"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>FreeMod Pool</h2>
+        <input
+          type="number"
+          min="0"
+          id="FreeMod"
+          class="poolInput"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper">
+        <h2>TieBreaker Pool</h2>
+        <input
+          type="number"
+          min="0"
+          class="poolInput"
+          id="TieBreaker"
+          placeholder="how many?"
+        />
+      </div>
+      <div class="itemWrapper hide">
+        <input type="number" class="poolInput" id="API" value="1" hidden />
+      </div>
+    </section>
+    <section id="mapFormContainer" class="itemContainer hide"></section>
+    <footer>
+      <div class="itemWrapper">
+        <input type="button" id="previous" value="Previous" class="hide" />
+        <input type="button" id="submit" onclick="submitPool()" value="Next" />
+      </div>
+      <span>
+        My Twitter:
+        <a href="https://twitter.com/M_RayhanH" target="_blank">
+          Rayhan Hakim
+        </a>
+      </span>
+      <span>
+        Forum:
+        <a
+          href="https://osu.ppy.sh/community/forums/topics/937671?start=7154592"
+          target="_blank"
+        >
+          osu! Forum
+        </a>
+      </span>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/button.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/request.js"></script>
+    <script src="scripts/card.js"></script>
+  </body>
+</html>

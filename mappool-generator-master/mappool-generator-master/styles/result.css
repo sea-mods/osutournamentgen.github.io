@@ -1,0 +1,152 @@
+/* Result Styling */
+.bold {
+  font-weight: bold;
+}
+
+#resultWrapper {
+  min-height: 100vh;
+  background-color: green;
+}
+
+.resultContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Exo 2", sans-serif;
+}
+
+.mapContainer {
+  width: 550px;
+  height: 80px;
+  background: no-repeat center center;
+  background-size: cover;
+  margin: 10px;
+  font-size: 11pt;
+  color: white;
+  border-radius: 100px;
+}
+
+.mapContainer.blueBorder {
+  box-shadow: 0 0 0 3pt blue;
+  transition: 0.5s;
+}
+
+.mapContainer.redBorder {
+  box-shadow: 0 0 0 3pt red;
+  transition: 0.5s;
+}
+
+.mapContent.banned,
+.mapContent.banned {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+.mapContent.banned .mapMetadata,
+.mapContent.banned .modImgContainer {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.mapContent {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.mapMetadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.mapDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mapDetails {
+  margin: 0 9px;
+}
+
+.modImgContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modImgWrapper {
+  margin-right: 8px;
+}
+
+.banMap {
+  min-width: 62px;
+  height: auto;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1600px) {
+  .mapContainer {
+    width: 500px;
+    height: 75px;
+    font-size: 10.5pt;
+  }
+
+  .modImgWrapper {
+    margin-right: 6px;
+  }
+
+  .modImgWrapper img {
+    width: 51px;
+    height: 18px;
+  }
+
+  .banMap {
+    min-width: 58px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .mapContainer {
+    width: 430px;
+    height: 68px;
+    font-size: 9.5pt;
+  }
+
+  .modImgWrapper {
+    margin-right: 4px;
+  }
+
+  .modImgWrapper img {
+    width: 48px;
+    height: 15px;
+  }
+
+  .banMap {
+    min-width: 52px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .mapContainer {
+    width: 400px;
+    height: 65px;
+    font-size: 9pt;
+  }
+
+  .modImgWrapper img {
+    width: 46px;
+    height: 13px;
+  }
+
+  .banMap {
+    min-width: 50px;
+  }
+}
+/*----------------------------------------------------*/

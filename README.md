@@ -7,7 +7,7 @@ A Mappool Generator for osu tournament livestreams
 
 ## How to Use the Generator
 
-1. Go to the [mappool-generator](https://mrayhanhakim.github.io/mappool-generator) page to start using the program.
+1. Go to the [mappool-generator](https://sea-mods.github.io/username.github.io/) page to start using the program.
 2. You'll be greeted with the first form right away, fill in all of the boxes for each pool for how many maps that you want, The max input for each pool is currently 10 for now, Then click next.  
    ![Imgur](https://i.imgur.com/Ph2zqG1.png "First Form Example")
 3. Fill in the next form boxes with the beatmap id that you want to use for each pool. For the API key, you need to request it from [The API request page](https://old.ppy.sh/p/api) or by clicking the title on the form. If you want to change for how many maps that you want to use for each pool, you can click the previous button. If not, you can click next.  
